@@ -11,7 +11,7 @@ After styling the topography of the archipelago, I created a point layer for the
 
 After styling the various layers, I then created the print layout of the map.
 
-## Step 2: Creating the 3D Render of Vágar
+### Step 2: Creating the 3D Render of Vágar
 I wanted to try integrating Blender with QGIS and given the dramatic topography of the Faroe Islands, I thought it would be interesting to render it in 3D. Vágar, in particular, was chosen given its especially dramatic topography, such as Sørvágsvatn (the lake on a cliff in the bottom-right of the render).
 
 I imported a vector layer from the QuickOSM plugin and used the "Clip Mask by Layer" tool to restrict the DTM to Vágar (and part of the surrounding islands). I then exported the resultant DTM to Blender. 
