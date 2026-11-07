@@ -2,7 +2,9 @@
 
 This is an attempt to improve my cartography skills by showcasing the mountainous terrain of the Faroe Islands.
 
-## Step 1: Creating the Map
+## Process
+
+### Step 1: Creating the Map
 I downloaded the DTM provided by the Faroese Environmental Agency (Umhvørvisstovan) on their Føroyakort mapping portal (https://www.foroyakort.fo/tak-datur-nidur/dtm-og-dsm-haeddarmodell). I rendered the layer using a singleband psuedocolour renderer and styled it using a green–red colour ramp. Hillshade data was taken from the Føroyakort portal (https://www.foroyakort.fo/tak-datur-nidur/skuggakort) and styled following this tutorial (https://www.youtube.com/watch?v=rPrC3qOtRAk). Bathymetric data was also taken from the Føroyakort portal (https://www.foroyakort.fo/tak-datur-nidur/datur-a-sjonum). I chose to set 100 metres as the maximum depth so as to simplify the map. 
 
 After styling the topography of the archipelago, I created a point layer for the largest settlement of each island. Black text with a white background was used to improve the readability of the labels. Tórshavn was given special styling to emphasise its special status as capital.
